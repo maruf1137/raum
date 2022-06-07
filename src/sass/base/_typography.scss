@@ -1,0 +1,47 @@
+a:link,
+a:visited {
+	font-size: 1.8rem;
+	font-weight: 400;
+	text-decoration: none;
+	color: $color-black;
+
+	@media only screen and (max-width: $laptop-port) {
+		font-size: 1.6rem;
+	}
+}
+
+// Typography utils
+
+.bold {
+	font-weight: 700;
+}
+
+.center {
+	text-align: center;
+}
+
+.uppercase {
+	text-transform: uppercase;
+}
+.capitalize {
+	text-transform: capitalize;
+}
+
+.icon {
+	height: 3rem;
+	width: 3rem;
+	fill: $color-secondary;
+}
+
+.white {
+	color: $color-white !important;
+}
+.black {
+	color: $color-secondary !important;
+}
+.primary-color {
+	color: $color-primary !important;
+}
+.secondary-color {
+	color: $color-secondary !important;
+}

@@ -1,0 +1,27 @@
+button {
+	border: none;
+	outline: none;
+	cursor: pointer;
+}
+
+.btn {
+	@media only screen and (max-width: $mbl-land) {
+		font-size: 2rem;
+	}
+}
+
+.add-btn {
+	height: 4rem;
+	width: 4rem;
+	border-radius: 50%;
+	background-color: $color-secondary;
+	position: absolute;
+	bottom: -4rem;
+	right: -3rem;
+
+	.icon {
+		height: 1.2rem;
+		width: 1.2rem;
+		fill: $color-white;
+	}
+}
