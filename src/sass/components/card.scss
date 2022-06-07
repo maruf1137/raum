@@ -87,6 +87,12 @@
 		border-radius: 2rem;
 		color: $color-white;
 		font-size: 1.5rem;
+		transition: all 0.5s;
+
+		&:hover {
+			background-color: $color-white;
+			color: $color-primary;
+		}
 	}
 
 	.btn-non-border {
